@@ -4,7 +4,7 @@ var es = require('event-stream');
 var CombinedStream = require('combined-stream');
 
 
- var combinedStream = CombinedStream.create();
+var combinedStream = CombinedStream.create();
 var fileStream = fs.createReadStream('test.json');
 var fileStream2 = fs.createReadStream('test2.json');
 
